@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.flex{
+    display: flex;
+}
+
+
+.navbar{
+    background-color: rgba(74, 202, 241, 0.894) ;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.navbar p{
+    color: #1D4B8A;
+    letter-spacing: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navlinks li{
+    padding-left: 40px;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 2px;
+    color: #1D4B8A;  
+    font-family: 'Poppins', sans-serif;  
+}
+
+header{
+    background-color: rgba(74, 202, 241, 0.894);
+    height: 90vh;
+    justify-content: space-around;
+    padding-top: 55px;
+    padding-left: 30px;
+}
+
+#heading{
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: #1D4B8A;
+    letter-spacing: 2px;
+    
+}
+
+.section2{
+    padding-block: 80px;
+}
+.section2 .section2-heading{
+    color: #1D4B8A;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.card-container{
+    justify-content: space-evenly;
+}
+
+.card-container .cards {
+    background: url('../puppiesAssets/Shape\ Combo.png');
+    width: 220px;
+    height: 280px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+   
+}
+.cards h3{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.cards p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+}
+
+.cards img{
+    width: 50px;
+}
+
+.dog-pictures{
+    display: flex;
+    flex-direction: column;
+    height: 140vh;
+    
+}
+
+.dog-pictures .sub-section{
+display: flex;
+height: 140vh;
+}
+ .image1{
+    background: url("../puppiesAssets/dog-image1.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: 70vh;
+}
+ .image2{
+    background: url("../puppiesAssets/dog-image2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 700px;
+    height: 70vh;
+}
+.image3{
+    background: url("../puppiesAssets/dog-image3.png");
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 70vh;
+}
+.image4{
+    background: url("../puppiesAssets/dog-image4.png");
+    background-position: center;
+    background-size: cover;
+    width: 650px;
+    height: 70vh;
+}
+
+ .image-caption{
+    background-color:rgba(255, 255, 255, 0.591);
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    text-align: center;
+    height: 11vh;
+    margin-top: 400px;
+    box-sizing: border-box;
+    
+
+}
+.image-caption p{
+    align-items: center;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #1D4B8A;
+    padding-top: 10px;
+    
+}
+
+
+/* SECTION CONATACT FORM */
+.contact-form{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.input-text{
+    width: 70vw;
+    border: 3.5px solid #1D4B8A;
+    margin: 10px 0;
+    padding: 10px 0 10px 10px;
+    color: #1D4B8A;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    outline: none;
+}
+.contact-form >h1{
+    color: #1D4B8A;
+    font-size: 40px;
+    padding-bottom: 30px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #1D4B8A;
+    border-radius: 30px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    transition: all ease 1s;
+
+}
+.btn:hover{
+    background-color: #1d4b8bbc;
+    color: antiquewhite;
+    
+}
+
+.footer{
+    background-color: #1D4B8A;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subfooter1{
+    display: flex;
+    justify-content: space-around;
+}
+.subfooter1 > p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.subfooter2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px 0 85px;
+}
+
+.subfooter2>p{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 10px;
+    font-size: 13px;
+}
+.subfooter2nd>input{
+    background-color: transparent;
+    color: white;
+    padding: 10px 50px 10px 15px;
+    border: 2px solid white;
+    outline: none;
+}
+
+.subfooter2nd>input::placeholder{
+    color: white;
+}
+
+.subfooter2nd>button{
+    margin-left: 40px;
+    padding: 13px 30px;
+    background-color: white;
+    color: #1D4B8A;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
