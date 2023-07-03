@@ -30,7 +30,15 @@
     list-style: none;
     letter-spacing: 2px;
     color: #1D4B8A;  
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif; 
+    transition: all ease 0.5s; 
+}
+.navlinks li:hover{
+    padding: 5px 8px;
+    background-color: #1d4f94f4;
+    margin-left: 20px;
+    color: white;
+
 }
 
 header{
@@ -49,8 +57,11 @@ header{
     
 }
 
+/* section 2 */
+
 .section2{
     padding-block: 80px;
+    background-color: #E3F4F4;
 }
 .section2 .section2-heading{
     color: #1D4B8A;
@@ -156,7 +167,7 @@ height: 140vh;
 /* SECTION CONATACT FORM */
 .contact-form{
     height: 100vh;
-    background-color: white;
+    background-color: #E3F4F4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,6 +178,7 @@ height: 140vh;
 .input-text{
     width: 70vw;
     border: 3.5px solid #1D4B8A;
+    background-color: transparent;
     margin: 10px 0;
     padding: 10px 0 10px 10px;
     color: #1D4B8A;
